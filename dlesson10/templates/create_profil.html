@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="Post" class="aa" style="display: flex; flex-direction: column; margin: 0 auto; max-width: 400px; ">
+    {%csrf_token%}
+
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="surname"  placeholder="surname">
+    <input type="text" name="login"  placeholder="login">
+    <input type="password" name="password" placeholder="password">
+    <input type="number" name="age" placeholder="age">
+    <input type="text" name="hobbies" placeholder="hobbies">
+    <input type="text" name="favourite_mosics" placeholder="favourite_mosics">
+    <input type="text" name="favourite_movies" placeholder="favourite_movies">
+    <input type="text" name="favourite_books" placeholder="favourite_books">
+    <input type="text" name="favourite_anime" placeholder="favourite_anime">
+    <input type="submit" name="submit" value="submit">
+
+</form>
+</body>
+</html>
